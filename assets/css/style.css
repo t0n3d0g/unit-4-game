@@ -1,0 +1,147 @@
+body, html {
+    height: 100%;
+    /* The image used */
+    background-image: url("https://image.ibb.co/gLWjq0/3433.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    #header.top {
+        position: relative;
+        width: 375px;
+        height: 75px;
+        line-height: 20px;
+        border: 3px solid #73AD21;
+        background-color:#cb7032;
+    }
+
+    #article.instructions {
+        float: left;
+        width: 475px;
+        height: 300px;
+        padding-top: 20px;
+        padding-left: 5px;
+        background-color:#fbe6cf    }
+    
+
+    div {
+        position: relative;
+        width: 375px;
+        height: 75px;
+        line-height: 20px;
+        border: 3px solid #73AD21;
+    }
+
+    #aside.myScore {
+        position: fixed;
+        top: 430px;
+        left: 10px;
+        float: left;
+        width: 150px;
+        height: 150px;
+        line-height: 20px;
+        border: 3px solid #73AD21;
+        background: #54c988;
+        border: 3px solid #73AD21;
+      }
+
+      #aside.winsLosses {
+        position: fixed;
+        top: 430px;
+        left: 170px;
+        float: right;
+        width: 150px;
+        height: 150px;
+        line-height: 40px;
+        border: 3px solid #73AD21;
+        background: #3afffd;
+        border: 3px solid #73AD21;  
+      }
+
+      #aside.crystal1 {
+        position: fixed;
+        top: 590px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+        border: 3px solid #73AD21;
+        background: #ebebeb;
+        border: 3px solid #73AD21;
+      }
+
+      #aside.crystal2 {
+        position: fixed;
+        top: 590px;
+        left: 120px;
+        width: 100px;
+        height: 100px;
+        border: 3px solid #73AD21;
+        background: #ebebeb;
+        border: 3px solid #73AD21;
+      }
+
+      #aside.crystal3 {
+        position: fixed;
+        top: 590px;
+        left: 230px;
+        width: 100px;
+        height: 100px;
+        border: 3px solid #73AD21;
+        background: #ebebeb;
+        border: 3px solid #73AD21;
+      }
+
+      #aside.crystal4 {
+        position: fixed;
+        top: 590px;
+        left: 340px;
+        width: 100px;
+        height: 100px;
+        border: 3px solid #73AD21;
+        background: #ebebeb;
+        border: 3px solid #73AD21;
+      }
+
+      #footer.top {
+        position: fixed;
+        top: 700px;
+        left: 10px;
+        width: 250px;
+        height: 30px;
+        background: #21a295;
+        border: 3px solid #73AD21;
+      }
+
+      #footer.bottom {
+        position: fixed;
+        top: 740px;
+        left: 10px;
+        width: 250px;
+        height: 100px;
+       background: #21a295;
+        border: 3px solid #73AD21;
+        
+      }
+
+    h1 {
+        color: white;
+        font-size: 300%;
+    }
+
+    p.ins {
+        color: green;
+    }
+
+    p.footer {
+        color: white;
+    }
+
+
+
+    

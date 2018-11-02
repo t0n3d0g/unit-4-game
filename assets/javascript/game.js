@@ -22,7 +22,7 @@ var losses = 0;     // Total losses
 // Generate Computer's random number
 function randomNum() {
     cpuGuess = Math.floor(Math.random() * (120-18)) + 20;
-    console.log(cpuGuess);
+    console.log("cpuGuess: " + cpuGuess);
 }
 
 // Generate Crystal Values
@@ -36,12 +36,13 @@ function crystalValue () {
 // Run Random Number function
     randomNum();
     userTotal = 0;
-    $("random").text(randomNum);
+    $("demo").text(randomNum);
     $("#userTotal").text(userTotal);
 }
 
 crystalValue();
 
+// Listens for button presses
 $(".button").click(function(){
     userTotal += parseInt($(this).val());
     $("#userTotal").text(userTotal);

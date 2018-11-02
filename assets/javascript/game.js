@@ -7,6 +7,8 @@
 // Game resets after User wins or looses
 // Wins and losses are displayed
 
+// Let us Start the game!
+$(document).ready(function() {
 // Letters and Variables.
 
 var cpuGuess;       // Computer's random number
@@ -22,7 +24,8 @@ var losses = 0;     // Total losses
 // Generate Computer's random number
 function randomNum() {
     cpuGuess = Math.floor(Math.random() * (120-18)) + 20;
-    console.log("cpuGuess: " + cpuGuess);
+    $("#cpuScore").text(cpuGuess);
+    console.log("#cpuGuess: " + cpuGuess);
 }
 
 // Generate Crystal Values
@@ -46,8 +49,10 @@ crystalValue();
 $(".button").click(function(){
     userTotal += parseInt($(this).val());
     $("#userTotal").text(userTotal);
+    var tempVal = parseInt($(this).val());
+    console.log("Added " + tempVal);
 
-    if (userTotal === randomNum) {
+    if (userTotal === cpuGuess) {
         wins++;
         console.log("Winner Winner Chicken Dinner");
         $("#wins").text(wins);
@@ -57,7 +62,7 @@ $(".button").click(function(){
         }, 1);
     }
 
-    if(userTotal > randomNum) {
+    if(userTotal > cpuGuess) {
         losses++;
         console.log("Computer wins. Better luck next time!");
         $("#losses").text(losses);
@@ -72,3 +77,4 @@ $(".button").click(function(){
 });
 
 crystalValue();
+});

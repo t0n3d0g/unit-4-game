@@ -36,7 +36,7 @@ function crystalValue () {
 // Run Random Number function
     randomNum();
     userTotal = 0;
-    $("demo").text(randomNum);
+    $("#demo").text(randomNum);
     $("#userTotal").text(userTotal);
 }
 

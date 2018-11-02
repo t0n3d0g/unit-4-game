@@ -30,15 +30,7 @@ body, html {
         background-color:#fbe6cf    }
     
 
-    div {
-        position: relative;
-        width: 375px;
-        height: 75px;
-        line-height: 20px;
-        border: 3px solid #73AD21;
-    }
-
-    #aside.myScore {
+    #aside.cpuScore {
         position: fixed;
         top: 430px;
         left: 10px;
@@ -136,6 +128,10 @@ body, html {
 
     p.ins {
         color: green;
+    }
+
+    p.demo {
+        text-emphasis: none;
     }
 
     p.footer {

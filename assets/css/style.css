@@ -63,7 +63,7 @@ body, html {
         border: 3px solid #73AD21;  
       }
 
-      .crystal1 button {
+      #aside.crystal1 {
         position: fixed;
         top: 600px;
         left: 10px;
@@ -74,7 +74,7 @@ body, html {
         border: 3px solid #73AD21;
       }
 
-      .crystal2 button {
+      #aside.crystal2 {
         position: fixed;
         top: 600px;
         left: 120px;
@@ -85,7 +85,7 @@ body, html {
         border: 3px solid #73AD21;
       }
 
-      .crystal3 button {
+      #aside.crystal3 {
         position: fixed;
         top: 600px;
         left: 230px;
@@ -96,7 +96,7 @@ body, html {
         border: 3px solid #73AD21;
       }
 
-      .crystal4 button {
+      #aside.crystal4 {
         position: fixed;
         top: 600px;
         left: 340px;
